@@ -1,0 +1,109 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background color for the entire page */
+}
+
+h1 {
+    text-align: center;
+    color: #3b2c50; /* Heading color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+form {
+    width: 100%; /* Full width within its container */
+    max-width: 500px; /* Maximum width of the form */
+    margin: 0 auto; /* Centering the form horizontally */
+    background-color: #ffffff; /* White background for the form */
+    border: 3px solid #3498db; /* Blue border for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 20px; /* Padding inside the form */
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+form:hover {
+    border-color: #2980b9; /* Darker blue border on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+fieldset {
+    border: 2px solid #2ecc71; /* Green border for fieldsets */
+    border-radius: 6px; /* Rounded corners */
+    padding: 15px; /* Padding inside the fieldset */
+    margin-bottom: 15px; /* Space below each fieldset */
+    background-color: #eafaf1; /* Light green background for fieldsets */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+fieldset.empty {
+    background-color: #eafaf1; /* Light green for empty fieldset */
+}
+
+fieldset.filled {
+    background-color: #d4edda; /* Slightly different green for filled fieldset */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #16a085; /* Dark green color for legend */
+}
+
+label {
+    display: block;
+    margin-top: 8px; /* Space above each label */
+    color: #2c3e50; /* Dark text color for labels */
+}
+
+input, textarea {
+    width: 100%; /* Full width within its container */
+    padding: 10px; /* Padding inside input and textarea */
+    margin-top: 6px; /* Space above each input and textarea */
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Includes padding in width calculation */
+    background-color: #ffffff; /* White background */
+}
+
+input:hover, textarea:hover {
+    border-color: #2980b9; /* Darker blue border on hover */
+    background-color: #f0f8ff; /* Light blue background on hover */
+}
+
+button {
+    display: block;
+    width: 100%; /* Full width within its container */
+    padding: 12px; /* Padding inside the button */
+    background-color: #1abc9c; /* Teal background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+    font-size: 18px; /* Font size */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #16a085; /* Darker teal on hover */
+}
+
+#resumeOutput {
+    width: 100%; /* Full width within its container */
+    max-width: 500px; /* Maximum width of the output */
+    margin: 20px auto; /* Centering the output horizontally */
+    padding: 20px; /* Padding inside the output */
+    border: 3px solid #3498db; /* Blue border for output */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background for output */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    color: #2c3e50; /* Dark text color */
+}
+
+#resumeOutput:hover {
+    border-color: #2980b9; /* Darker blue border on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
